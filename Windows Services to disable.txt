@@ -1,0 +1,78 @@
+List all stats
+Details:       sc queryex type=service state=all
+Name only:     sc queryex type=service state=all | find /i "SERVICE_NAME:"
+Specific name: sc queryex type=service state=all | find /i "SERVICE_NAME: myService"
+			sc query myService
+All active:    sc queryex type=service state=active
+Disable state: sc config “service-name” start-disabled
+
+*Alljoyn Router Service
+*Application Layer Gateway Service
+*Bluetooth and AVCTP Service (Keep for bluetooth)
+*BcastDVRUsrService_62429 (for Game DVR)
+*Bitlocker Drive Encryption Service
+*Certificate Propagation Service
+*Connected User Experiences and Telemetry
+*Distributed Link Tracking Client
+*Diagnostic Policy Service
+*Diagnostic Service Host
+*Diagnostic System Host
+*Downloaded Maps Manager
+*Enterprise App Management Service (Enterprise and businesses may use this)
+*Fax Service (Enterprise may use this)
+*File History Service
+*GameDVR and Broadcast (Can't find)
+*Geolocation Service
+*Internet Connection Sharing
+*IP Helper
+*Netlogon
+*Windows 10 OneSyncSvc_62429
+*Parental Control
+*Payments and NFC/SE Manager
+*Phone Service
+*Print Spooler (If you don't print)
+*Program Compatibility Assistant Service
+*Remote Desktop
+*Remote Registry (Can't find)
+*Retail Demo Service
+*Secondary Logon
+*Smartcard
+*Touch Keyboard and Handwriting Panel Service
+*TCP/IP NetBIOS Helper
+*Windows Biometric Service
+*Windows Camera Frame Server
+*Windows Connect Now (enterprises uses this)
+*Windows Error Reporting
+*Windows Insider Service
+*Windows Image Acquisition (for scanners)
+*Windows Media Player Network Sharing Service
+*Windows Mobile Hotspot Service
+*Windows Search
+*Windows 10 Security Center (Can't find)
+*Windows Update Service
+*Xbox Accessory Management Service
+*Xbox Live Auth Manager
+*Xbox Live Game Save
+*Xbox Live Networking Services
+
+Unknown effects or could not be found.
+Universal Telemetry Client (UTC) (Can't find)
+Diagnostic Tracking Service (Can't find)
+Offline Files (Can't find)
+Infrared Monitor Service (Can't find)
+
+If you use your own security software
+Windows Defender
+
+Other performances stuff
+Disable visual effects: Control Panel > System & Security > System > Advanced System Settings > Settings
+	Enable: Show Shadows
+		show windo content while dragging
+		Smooth edge of screen fonts
+Disable transparancy effect: Settings -> Personization -> Colors -> Turn off the transparancy effect
+Enable "page file" This is the secondary memory acting as the primary memory: Settings > System > About > Advanced system settings > Advanced > Settings > Virtual memory > Uncheck auto manage paging file size for all drives, Custom size, ake it about 4GB
+Turn off system restoration points
+Remote tab: turn off "Allow Remote Assistance connections to this computer"
+Turn off notifications and tips:
+
+
