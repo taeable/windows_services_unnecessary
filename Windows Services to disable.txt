@@ -8,7 +8,6 @@ Disable state: sc config “service-name” start-disabled
 
 *Alljoyn Router Service
 *Application Layer Gateway Service
-*Bluetooth and AVCTP Service (Keep for bluetooth)
 *BcastDVRUsrService_62429 (for Game DVR)
 *Bitlocker Drive Encryption Service
 *Certificate Propagation Service
@@ -18,7 +17,6 @@ Disable state: sc config “service-name” start-disabled
 *Diagnostic Service Host
 *Diagnostic System Host
 *Downloaded Maps Manager
-*Enterprise App Management Service (Enterprise and businesses may use this)
 *Fax Service (Enterprise may use this)
 *File History Service
 *GameDVR and Broadcast (Can't find)
@@ -28,9 +26,7 @@ Disable state: sc config “service-name” start-disabled
 *Netlogon
 *Windows 10 OneSyncSvc_62429
 *Parental Control
-*Payments and NFC/SE Manager
 *Phone Service
-*Print Spooler (If you don't print)
 *Program Compatibility Assistant Service
 *Remote Desktop
 *Remote Registry (Can't find)
@@ -49,11 +45,17 @@ Disable state: sc config “service-name” start-disabled
 *Windows Mobile Hotspot Service
 *Windows Search
 *Windows 10 Security Center (Can't find)
-*Windows Update Service
 *Xbox Accessory Management Service
 *Xbox Live Auth Manager
 *Xbox Live Game Save
 *Xbox Live Networking Services
+
+###optional###
+*Bluetooth and AVCTP Service (Keep for bluetooth)
+*Enterprise App Management Service (Enterprise and businesses may use this)
+*Print Spooler (If you don't print)
+*Windows Update Service (Keep for language packs)
+*Payments and NFC/SE Manager (Uses NFC for payment processing)
 
 Unknown effects or could not be found.
 Universal Telemetry Client (UTC) (Can't find)
