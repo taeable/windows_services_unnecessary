@@ -17,7 +17,6 @@ Disable state: sc config “service-name” start-disabled
 *Diagnostic Service Host
 *Diagnostic System Host
 *Downloaded Maps Manager
-*Fax Service (Enterprise may use this)
 *File History Service
 *GameDVR and Broadcast (Can't find)
 *Geolocation Service
@@ -56,6 +55,7 @@ Disable state: sc config “service-name” start-disabled
 *Windows Image Acquisition (for scanners)
 *Payments and NFC/SE Manager (Uses NFC for payment processing)
 *Windows Connect Now (enterprises uses this)
+*Fax Service (Enterprise may use this)
 
 Unknown effects or could not be found.
 Universal Telemetry Client (UTC) (Can't find)
