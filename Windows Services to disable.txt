@@ -36,7 +36,6 @@ Disable state: sc config “service-name” start-disabled
 *Touch Keyboard and Handwriting Panel Service
 *TCP/IP NetBIOS Helper
 *Windows Biometric Service
-*Windows Connect Now (enterprises uses this)
 *Windows Error Reporting
 *Windows Insider Service
 *Windows Media Player Network Sharing Service
@@ -56,6 +55,7 @@ Disable state: sc config “service-name” start-disabled
 *Windows Camera Frame Server
 *Windows Image Acquisition (for scanners)
 *Payments and NFC/SE Manager (Uses NFC for payment processing)
+*Windows Connect Now (enterprises uses this)
 
 Unknown effects or could not be found.
 Universal Telemetry Client (UTC) (Can't find)
