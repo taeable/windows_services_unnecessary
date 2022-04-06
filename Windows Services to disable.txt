@@ -36,11 +36,9 @@ Disable state: sc config “service-name” start-disabled
 *Touch Keyboard and Handwriting Panel Service
 *TCP/IP NetBIOS Helper
 *Windows Biometric Service
-*Windows Camera Frame Server
 *Windows Connect Now (enterprises uses this)
 *Windows Error Reporting
 *Windows Insider Service
-*Windows Image Acquisition (for scanners)
 *Windows Media Player Network Sharing Service
 *Windows Mobile Hotspot Service
 *Windows Search
@@ -55,6 +53,8 @@ Disable state: sc config “service-name” start-disabled
 *Enterprise App Management Service (Enterprise and businesses may use this)
 *Print Spooler (If you don't print)
 *Windows Update Service (Keep for language packs)
+*Windows Camera Frame Server
+*Windows Image Acquisition (for scanners)
 *Payments and NFC/SE Manager (Uses NFC for payment processing)
 
 Unknown effects or could not be found.
