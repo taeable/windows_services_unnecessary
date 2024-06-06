@@ -6,10 +6,10 @@ Specific name: sc queryex type=service state=all | find /i "SERVICE_NAME: myServ
 All active:    sc queryex type=service state=active
 Disable state: sc config “service-name” start-disabled
 
-*ActiveX Installer (AxInsSV)
+*ActiveX Installer (AxInsSV) (New)
 *Alljoyn Router Service
 *Application Layer Gateway Service
-*BcastDVRUsrService_62429 (for Game DVR)
+*BcastDVRUsrService_62429 (for Game DVR) (Can't find)
 *Bitlocker Drive Encryption Service
 *Certificate Propagation Service
 *Connected User Experiences and Telemetry
@@ -21,20 +21,39 @@ Disable state: sc config “service-name” start-disabled
 *File History Service
 *GameDVR and Broadcast (Can't find)
 *Geolocation Service
+*HV Hosting Service (New)
+*Hyper-V Data Exchange Service (New)
+*Hyper-V Guest Service Interface (New)
+*Hyper-V Guest Shutdown Service (New)
+*Hyper-V Heartbeat Service (New)
+*Hyper-V PowerShell Direct Service (New)
+*Hyper-V Remove Desktop Virtualization Service (New)
+*Hyper-V Time Synchronization Service (New)
+*Hyper-V Volume Shadow Copy Requester (New)
 *Internet Connection Sharing
 *IP Helper
+*Microsoft (R) Diagnostics Hub Standard Collector Service (New)
+*Microsoft Edge Elevation Service (MicrosoftEdgeElevationService) (New)
+*Microsoft Edge Update Service (edgeupdate) (New)
+*Microsoft Edge Update Service (edgeupdatem) (New)
+*Microsoft FTP Service (New)
 *Netlogon
 *Windows 10 OneSyncSvc_62429
 *Parental Control
 *Phone Service
+*Problem Report Control Panel Support (New)
 *Program Compatibility Assistant Service
-*Remote Desktop
+*Remote Desktop Configuration (New)
+*Remote Desktop Services (New)
+*Remote Desktop Services UserMode Port Redirector (New)
 *Remote Registry (Can't find)
 *Retail Demo Service
 *Secondary Logon
 *Smartcard
-*Touch Keyboard and Handwriting Panel Service
+*Smartcard Device Enumeration Service (New)
+*Smartcard Removal Policy (New)
 *TCP/IP NetBIOS Helper
+*Touch Keyboard and Handwriting Panel Service
 *Windows Biometric Service
 *Windows Error Reporting
 *Windows Insider Service
@@ -51,8 +70,10 @@ Disable state: sc config “service-name” start-disabled
 *Bluetooth and AVCTP Service (Keep for bluetooth)
 *Enterprise App Management Service (Enterprise and businesses may use this)
 *Print Spooler (If you don't print)
+*Printer Extension and Notifications (If you don't print)
+*PrintWorkflow_873c8 (If you don't print)
 *Windows Update Service (Keep for language packs)
-*Windows Camera Frame Server
+*Windows Camera Frame Server (If you use camera)
 *Windows Image Acquisition (for scanners)
 *Payments and NFC/SE Manager (Uses NFC for payment processing)
 *Windows Connect Now (enterprises uses this)
