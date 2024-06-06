@@ -6,6 +6,7 @@ Specific name: sc queryex type=service state=all | find /i "SERVICE_NAME: myServ
 All active:    sc queryex type=service state=active
 Disable state: sc config “service-name” start-disabled
 
+*ActiveX Installer (AxInsSV)
 *Alljoyn Router Service
 *Application Layer Gateway Service
 *BcastDVRUsrService_62429 (for Game DVR)
